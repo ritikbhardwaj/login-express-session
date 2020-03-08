@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link
+			rel="stylesheet"
+			type="text/css"
+			href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.8.0/css/bulma.css"
+		/>
+		<link rel="stylesheet" type="text/css" href="stylesheets/home.css" />
+		<title>Home</title>
+		<script
+			src="https://code.jquery.com/jquery-3.4.1.min.js"
+			integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+			crossorigin="anonymous"
+		></script>
+		<script src="scripts/home.js"></script>
+	</head>
+	<body>
+		<nav class="navbar" role="navigation" aria-label="main navigation">
+			<div class="navbar-brand">
+				<a
+					role="button"
+					class="navbar-burger burger"
+					aria-label="menu"
+					aria-expanded="false"
+					data-target="navbarBasicExample"
+				>
+					<span aria-hidden="true"></span>
+					<span aria-hidden="true"></span>
+					<span aria-hidden="true"></span>
+				</a>
+			</div>
+
+			<div id="navbarBasicExample" class="navbar-menu">
+				<div class="navbar-start">
+					<a class="navbar-item">
+						Home
+					</a>
+
+					<a class="navbar-item" href="https://github.com/ritikbhardwaj">
+						Github
+					</a>
+				</div>
+
+				<div class="navbar-end">
+					<div class="navbar-item">
+						<div class="buttons">
+							<a class="button is-primary" id="signup">
+								<strong>Sign up</strong>
+							</a>
+							<a class="button is-light" id="login" href="/login">
+								Log in
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</nav>
+		<section class="section">
+			<div class="container has-text-centered">
+				<h1 class="title">
+					Login using
+					<a href="https://github.com/expressjs/session" target="_newtab"
+						><u>Express Session</u></a
+					>
+				</h1>
+				<h2 class="subtitle">
+					A simple implementation of login and signup using Express Session. The
+					source code can be found on Github. The UI is made with
+					<a href="https://bulma.io" target="_newtab" class="is-medium"
+						>Bulma</a
+					>
+					an open source CSS framework based on FlexBox.
+				</h2>
+				<h2 class="is-small">
+					The credentials are verified based on the data in the database. A
+					Mysql database is hosted online on the AWS-RDS platform. Contact
+					<u><a href="https://www.instagram.com/00ritikbhardwaj00/">Me</a></u>
+					for more details.
+				</h2>
+			</div>
+		</section>
+		<footer class="footer ">
+			<div class="content has-text-centered">
+				<p>
+					Ritik Bhardwaj -
+					<a
+						href="https://github.com/ritikbhardwaj"
+						taget="_newtab"
+						rel="noopener noreferrer"
+						>Github</a
+					>
+				</p>
+			</div>
+		</footer>
+	</body>
+</html>

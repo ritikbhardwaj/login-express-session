@@ -1,0 +1,25 @@
+{
+	"name": "login",
+	"version": "1.0.0",
+	"description": "A login form with sessions",
+	"main": "index.js",
+	"scripts": {
+		"start": "node index.js",
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"author": "Ritik Bhardwaj",
+	"license": "ISC",
+	"dependencies": {
+		"bcrypt": "^4.0.1",
+		"dotenv": "^8.2.0",
+		"ejs": "^3.0.1",
+		"express": "^4.17.1",
+		"express-session": "^1.17.0",
+		"morgan": "^1.9.1",
+		"mysql2": "^2.1.0",
+		"uuid": "^7.0.2"
+	},
+	"devDependencies": {
+		"colors": "^1.4.0"
+	}
+}
