@@ -1,7 +1,7 @@
 require('dotenv').config();
 const express = require('express');
 const session = require('express-session');
-const colors = require('colors');
+//const colors = require('colors');  not necessary
 const morgan = require('morgan');
 const db = require('./database');
 const bcrypt = require('bcrypt');
@@ -109,6 +109,6 @@ app.get('/dashboard', redirectLogin, function(req, res) {
 });
 
 //SERVER
-app.listen(PORT, function() {
-	console.log(colors.bgBlue(`Server started on port - ${PORT}`));
+app.listen(PORT,function(){
+	console.log(`Listening on PORT - ${PORT}`);
 });
